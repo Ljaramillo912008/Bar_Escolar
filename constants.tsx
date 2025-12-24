@@ -1,0 +1,106 @@
+
+import { MenuItem } from './types';
+
+export const INITIAL_MENU: MenuItem[] = [
+  {
+    id: '1',
+    name: 'Combo Almuerzo Criollo',
+    description: 'Arroz con pollo, menestra de lentejas, ensalada fresca y jugo natural de fruta.',
+    price: 3.50,
+    cost: 1.20,
+    category: 'Almuerzo',
+    available: true,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=400',
+    nutritionalInfo: 'Alto en proteínas y carbohidratos complejos.',
+    ingredients: ['Pollo', 'Arroz', 'Lentejas', 'Lechuga', 'Tomate'],
+    tags: ['Saludable', 'Proteína'],
+    customizations: ['Sin menestra', 'Ensalada extra'],
+    rating: 4.8,
+    isTopSeller: true,
+    calories: 650,
+    protein: 35,
+    carbs: 85,
+    fat: 18
+  },
+  {
+    id: '2',
+    name: 'Sándwich de Pavo Integral',
+    description: 'Pavo asado a las finas hierbas, lechuga orgánica, tomate riñón y queso bajo en grasa.',
+    price: 2.25,
+    cost: 0.85,
+    category: 'Desayuno',
+    available: true,
+    image: 'https://images.unsplash.com/photo-1539252554452-da6cab1058fd?auto=format&fit=crop&q=80&w=400',
+    nutritionalInfo: 'Opción ligera y rica en fibra.',
+    ingredients: ['Pan integral', 'Pavo asado', 'Queso tierno', 'Lechuga'],
+    tags: ['Saludable', 'Bajo en Grasa'],
+    customizations: ['Sin cebolla', 'Doble queso'],
+    rating: 4.5,
+    isTopSeller: true,
+    calories: 320,
+    protein: 22,
+    carbs: 40,
+    fat: 8
+  },
+  {
+    id: '3',
+    name: 'Bowl de Frutas Tropicales',
+    description: 'Mix de papaya, piña, sandía y fresas con miel de abeja y granola artesanal.',
+    price: 1.50,
+    cost: 0.40,
+    category: 'Snack',
+    available: true,
+    image: 'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&q=80&w=400',
+    nutritionalInfo: 'Rico en vitaminas, minerales y fibra natural.',
+    ingredients: ['Papaya', 'Piña', 'Fresa', 'Sandía', 'Granola', 'Miel'],
+    tags: ['Vegano', 'Sin Gluten', 'Saludable'],
+    customizations: ['Sin miel', 'Sin granola'],
+    rating: 4.9,
+    isTopSeller: true,
+    calories: 180,
+    protein: 4,
+    carbs: 42,
+    fat: 2
+  },
+  {
+    id: '4',
+    name: 'Jugo de Naranja 100% Natural',
+    description: 'Zumo recién exprimido, sin azúcares añadidos ni conservantes.',
+    price: 1.00,
+    cost: 0.30,
+    category: 'Bebida',
+    available: true,
+    image: 'https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?auto=format&fit=crop&q=80&w=400',
+    ingredients: ['Naranjas frescas'],
+    tags: ['Vegano', 'Sin Gluten'],
+    customizations: ['Sin hielo', 'Poca azúcar'],
+    rating: 4.7,
+    calories: 110,
+    protein: 2,
+    carbs: 26,
+    fat: 0
+  },
+  {
+    id: '5',
+    name: 'Ensalada de Pasta Vegetariana',
+    description: 'Pasta integral con vegetales salteados y una pizca de queso parmesano.',
+    price: 3.00,
+    cost: 1.10,
+    category: 'Almuerzo',
+    available: true,
+    image: 'https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=80&w=400',
+    nutritionalInfo: 'Excelente fuente de energía vegetal.',
+    ingredients: ['Pasta', 'Brócoli', 'Zanahoria', 'Zucchini', 'Queso'],
+    tags: ['Vegetariano', 'Saludable'],
+    customizations: ['Sin queso', 'Pasta extra'],
+    rating: 4.2,
+    calories: 450,
+    protein: 15,
+    carbs: 70,
+    fat: 12
+  }
+];
+
+export const DAYS_OF_WEEK = [
+  'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'
+];
